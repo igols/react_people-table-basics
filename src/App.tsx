@@ -3,11 +3,11 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { HomePage } from './components/HomePage';
 import { PeoplePage } from './components/PeoplePage';
 import { NotFoundPage } from './components/NotFoundPage';
-import { Navbar } from './components/Navbar';
+import { NavBar } from './components/NavBar';
 
 export const App = () => (
   <div data-cy="app">
-    <Navbar />
+    <NavBar />
     <main className="section">
       <div className="container">
         <Routes>

@@ -22,13 +22,12 @@ export const PeoplePage: React.FC = () => {
       })
       .finally(() => {
         setLoading(false);
-        setError('');
       });
   }, []);
 
   return (
     <>
-      <h1 className="title">People Page</h1>;
+      <h1 className="title">People Page</h1>
       <div className="block">
         <div className="box table-container">
           {loading && <Loader />}

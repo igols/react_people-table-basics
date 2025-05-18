@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import cn from 'classnames';
 
-export const Navbar: React.FC = () => {
+export const NavBar: React.FC = () => {
   const isActiveLink = ({ isActive }: { isActive: boolean }) => {
     if (isActive) {
       return cn('navbar-item has-background-grey-lighter');
